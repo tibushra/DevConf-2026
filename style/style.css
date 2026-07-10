@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 /*navbar start*/
@@ -100,7 +100,7 @@ main {
 }
 
 .meet-speaker {
-    margin:40px 0;
+    margin: 40px 0;
     color: #000102;
     font-size: 3rem;
     font-weight: 700;
@@ -176,7 +176,7 @@ main {
 }
 
 .common-card {
-    
+
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -207,7 +207,9 @@ hr {
     border-top: 1px solid #FFFFFF10;
 }
 
-.standard-button, .team-button, .pro-button {
+.standard-button,
+.team-button,
+.pro-button {
     border-radius: 8px;
     width: 100%;
     padding: 8px 3%;
