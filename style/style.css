@@ -58,6 +58,11 @@ nav ul li a {
 
 /* banner-section end */
 
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
 /* speacker-section start */
 
 
@@ -65,11 +70,12 @@ nav ul li a {
 .speakers-intro {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    align-items: center;
+    /* align-items: center; */
     gap: 20px;
     column-gap: 30px;
     row-gap: 30px;
-    padding: 30px 80px;
+
+
 }
 
 .speakers {
@@ -94,8 +100,8 @@ nav ul li a {
 }
 
 .meet-speaker {
-    margin-top: 40px;
-    /* padding: 20px; */
+    margin:40px 0;
+    color: #000102;
     font-size: 3rem;
     font-weight: 700;
     text-align: center;
@@ -118,3 +124,145 @@ nav ul li a {
 }
 
 /* speacker-section end */
+/* pricing-section start */
+
+.pricing-section {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-start {
+    margin: 20px;
+    padding: 20px;
+}
+
+.pricing-card {
+    margin-top: 10px;
+}
+
+.secure-section-start {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pricing-card-big-font {
+
+    color: #0D1B2A;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.pricing-list {
+    color: #333333;
+    display: grid;
+    gap: 10px;
+    margin-bottom: auto;
+    padding-left: 18px;
+}
+
+.pricing-list li::marker {
+    color: #2563EB;
+}
+
+
+.pricing-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: stretch;
+    padding: 20px;
+}
+
+.common-card {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid rgb(237, 232, 232);
+    border-radius: 8px;
+    /* overflow: hidden; */
+    padding: 30px;
+}
+
+
+.first-card {
+    background-color: white;
+    color: #888888;
+}
+
+.last-card {
+    background-color: #F8F9FB;
+    color: #888888;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #E5E7EB;
+    margin: 20px 0;
+}
+
+.highlight-hr {
+    border-top: 1px solid #FFFFFF10;
+}
+
+.standard-button, .team-button, .pro-button {
+    border-radius: 8px;
+    width: 100%;
+    padding: 8px 3%;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.standard-button {
+    color: #2563EB;
+    background-color: white;
+    border: 2px solid #2563EB;
+
+}
+
+.team-button {
+    color: #0D1B2A;
+    background-color: #F8F9FB;
+    border: 2px solid #0D1B2A;
+
+}
+
+.pricing-name {
+    font-weight: 600;
+}
+
+.highlight-price {
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.pro {
+    color: #93C5FD;
+}
+
+.highlight-card {
+    background-color: #0D1B2A;
+    color: #FFFFFF80;
+}
+
+.highlight-list {
+    display: grid;
+    gap: 10px;
+    margin-bottom: auto;
+    padding-left: 18px;
+}
+
+.highlight-list li::marker {
+    color: #2563EB;
+}
+
+.pro-button {
+    color: #FFFFFF;
+    background-color: #2563EB;
+    border: 2px solid #0D1B2A;
+}
+
+/* pricing-section end */
