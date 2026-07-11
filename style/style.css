@@ -4,6 +4,19 @@
     font-family: "Inter", sans-serif;
 }
 
+a:hover {
+    background-color: #b5c4ee;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #35446f;
+    padding: 10px 30px;
+    margin: 0px 8px;
+    border-radius: 8px;
+}
+
 /*navbar start*/
 nav {
     display: flex;
