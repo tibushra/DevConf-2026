@@ -361,3 +361,33 @@ hr {
     line-height: 1.7;
 }
 
+/*footer section start*/
+footer{
+    background-color: #0D1B2A;
+    padding: 20px;
+}
+footer hr{
+    border: none;
+    border-top: 1px solid #FFFFFF40;
+    margin: 20px 0;
+}
+footer p{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF40;
+}
+.footer-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 8%;
+}
+.footer-link span{
+    color: #2563EB;
+}
+.footer-link{
+    display: flex;
+    gap: 20px;
+}
+/*footer section start*/
